@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+header{
+  width: 100%;
+}
+header,header a{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(57, 54, 54);
+  text-align: center;
+  height: 10vh;
+  font-family:Helvetica;
+  font-weight: bold;
+  color: aliceblue;
+  text-decoration: none;
+}
+header img{
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
+.createe{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(./images/bus.jpg);
+   background-size: cover;
+}
+.create{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow:10px 10px 8px gray ;
+
+}
+input{
+  outline: none;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+button{
+   background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 4px;
+}
+button:hover{
+   background-color: #07c;
+}
+.abt{
+  background-image: url(./images/bus.jpg);
+   background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.abt h1{
+  width: 100%;
+}
+.abt a{
+  color: rgb(0, 0, 0);
+}
+.bookk{
+  height: 10vh;
+  text-align: center;
+  color: antiquewhite;
+  background-color: darkslategrey;
+
+}
+.bookk a{
+  text-decoration: none;
+  color: antiquewhite;
+  float: right;
+}
+.ticketss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  background-color: #FFFFF4;
+}
+
+
+table{
+  border: 10px ridge black;
+}
+.libar{
+  width: 10vh;
+  height: 90vh;
+  background-color: black;
+}
+.booksh{
+  display: flex;
+
+}
+.bookbox{
+  width: 700px;
+  height: 400px;
+  text-align: right;
+
+}
+.bookbox1{
+  width: 740px;
+  height: 400px;
+  text-align: left;
+
+}
+.bookop{
+  width: 10%;
+  height: 10px;
+  background-color: red;
+
+}
+.b{
+  background-color: #0095ff;
+}
+.b:hover{
+  background-color: #07c;
+}
